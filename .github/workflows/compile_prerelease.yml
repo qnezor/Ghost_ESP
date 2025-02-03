@@ -117,7 +117,7 @@ jobs:
           fetch-depth: 0  # This ensures we have all commit history
 
       - name: Download All Artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           path: all_artifacts
 
